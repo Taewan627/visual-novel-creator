@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎮 Visual Novel Creator
 
-# Run and deploy your AI Studio app
+![Visual Novel Creator Screenshot](./f53db7b7-c929-42d3-8279-f739922f47fb.png)
 
-This contains everything you need to run your app locally.
+**Visual Novel Creator** is an AI-powered tool that allows users to design and generate interactive visual novels directly in the browser.  
+It combines automated story generation, scene management, and character expression control — all in an intuitive drag-and-drop editor.
 
+Users can build complete branching stories with a clear **scene tree**, generate dialogues and backgrounds with AI,  
+and finally **export the result to Ren’Py (.rpy)** to run as a playable game.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|----------|-------------|
+| **AI Story Generator** | Generate structured stories (beginning, development, twist, and conclusion) from a single theme prompt. |
+| **Scene Tree Editor** | Visualize and organize story branches using a nested scene hierarchy. |
+| **Character Manager** | Define characters, upload multiple expressions, and link image assets. |
+| **AI Dialogue Generator** | Automatically create dialogues that match the tone and context of each scene. |
+| **Export to Ren’Py** | Instantly export your entire story to a `.rpy` script for Ren’Py visual novel engine. |
+| **Live Preview Mode** | Play through your story in real time to test pacing and choices. |
 View your app in AI Studio: https://ai.studio/apps/drive/1U64YB04wIzVICE2sT056tGausfIXBOmc
+---
 
-## Run Locally
+## 🧠 Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React + Next.js + TailwindCSS  
+- **AI Engine:** Gemini API / OpenAI API (for text and dialogue generation)  
+- **Backend (Optional):** Node.js Express  
+- **Export Formats:** JSON, Ren’Py Script  
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Run Locally
+
+### Prerequisites
+- Node.js (v18 or higher)
+
+### Installation
+```bash
+npm install
