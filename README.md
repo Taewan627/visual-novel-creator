@@ -1,6 +1,5 @@
 # 🎮 Visual Novel Creator
 
-![Visual Novel Creator Screenshot](./f53db7b7-c929-42d3-8279-f739922f47fb.png)
 
 **Visual Novel Creator** is an AI-powered tool that allows users to design and generate interactive visual novels directly in the browser.  
 It combines automated story generation, scene management, and character expression control — all in an intuitive drag-and-drop editor.
